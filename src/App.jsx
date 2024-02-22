@@ -1,7 +1,15 @@
+import { Cosy } from "./components/Cosy";
+import { Hot } from "./components/Hot";
+import { Juicy } from "./components/Juicy";
+import { Nav } from "./components/Nav";
+
 export function App() {
   return (
     <>
-      <h1>This is the App Component</h1>
+      <Nav />
+      <Hot />
+      <Juicy />
+      <Cosy />
     </>
   );
 }
